@@ -1,0 +1,15 @@
+body {
+  margin: 0!important;
+  @include media-breakpoint-up(md) {
+    padding-top: 72px!important;
+  }
+  @include media-breakpoint-down(md) {
+    padding-top: 74px!important;
+  }
+}
+
+.w-auto { width: auto!important; }
+
+.cc-window.cc-banner {
+  padding: 1em 6em;
+}

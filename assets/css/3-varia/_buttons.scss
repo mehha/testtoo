@@ -1,0 +1,19 @@
+.background-pink {
+  background-color: #fff9f8;
+  &:focus { background-color: #fff9f8; }
+}
+
+.btn-color-purple { color: $color-purple; background-color: #ffffff; &:hover { background: darken($gray-200, 10%); } }
+.btn-color-orange { color: $color-orange; background-color: #ffffff; &:hover { background: darken($gray-200, 10%); } }
+.btn-color-green { color: $color-green; background-color: #ffffff; &:hover { background: darken($gray-200, 10%); } }
+.btn-color-red { color: $color-red; background-color: #ffffff; &:hover { background: darken($gray-200, 10%); } }
+
+.btn-background-purple { background: $color-purple; border: 0; &:hover { background: darken($color-purple, 10%); border: 0; z-index: 0!important; } }
+.btn-background-orange { background: $color-orange; border: 0; &:hover { background: darken($color-orange, 10%); border: 0; z-index: 0!important; } }
+.btn-background-green { background: $color-green; border: 0; &:hover { background: darken($color-green, 10%); border: 0; z-index: 0!important; } }
+.btn-background-red { background: $color-red; border: 0; &:hover { background: darken($color-red, 10%); border: 0; z-index: 0!important; } }
+.btn-background-dark-gray { background-color: #4a4a4a; border: 0; &:hover { background: darken(#4a4a4a, 10%); border: 0; z-index: 0!important; } }
+
+button:focus, .navbar-toggler {
+  outline: none;
+}
